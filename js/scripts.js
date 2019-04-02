@@ -27,7 +27,7 @@ $(function(){
         var checkedCope = $(this).val();
         $('#coping-response').append(checkedCope + "<br>");
         $('#coping-response').show();
+      });
+    };
   });
-};
-});
 });
