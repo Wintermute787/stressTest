@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress-form">
+        <div class="form-group">
+          <p>Warning signs of being negatively affected by stress</p>
+          <input type="checkbox" name="warning" value="sleep">
+          Loss of Sleep <br>
+          <input type="checkbox" name="warning" value="overwhelmed">
+          Feeling Overwhelmed <br>
+          <input type="checkbox" name="warning" value="diet">
+          Diet Changes <br>
+        </div>
+        <div class="form-group">
+          <p>Symptoms of Stress</p>
+          <input type="checkbox" name="symptoms" value="anger">
+          Do you often feel angry?<br>
+          <input type="checkbox" name="symptoms" value="sad">
+          Do you often feel sad?<br>
+          <input type="checkbox" name="symptoms" value="drug">
+          Do you use too many drugs?<br>
+        </div>
+        <div class="form-group">
+          <p>Coping with stress</p>
+          <input type="checkbox" name="coping" value="meditate">
+          Have you tried meditating?<br>
+          <input type="checkbox" name="coping" value="pet">
+          Do you pet your cat?<br>
+          <input type="checkbox" name="coping" value="drug2">
+          Do you use enough drugs?<br>
+        </div>
+          <button type="submit" class="btn btn-warning">submit</button>
+        </form>
+          <h2 id="response-header">Here is the results of your quiz</h2>
+          <span id="warning-response">
+            <p><b> Stress is effecting you! This is why.</b></p>
+          </span>
+          <span id="symptoms-response">
+            <p><b> Here are the symptoms you are experiencing.</b></p>
+        </span>
+        <span id="coping-response">
+          <p><b> Try these activities to cope with stress!</b></p>
+      </span>
+      <span id="new-span">
+        <p><b> blah blah blah</b></p>
+    </span>
+    </div>
+  </body>
+</html>
